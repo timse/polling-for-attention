@@ -1,0 +1,40 @@
+{
+  "name": "polling-for-attention",
+  "version": "0.0.1",
+  "description": "poll condition till its true then resolve or reject if it never gets true",
+  "main": "pfa.js",
+  "scripts": {
+    "build": "webpack",
+    "build:production": "webpack -p",
+    "test": "mocha --compilers js:mocha-traceur",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timse/polling-for-attention.git"
+  },
+  "keywords": [
+    "poll",
+    "promise",
+    "interval",
+    "timeout",
+    "condition",
+    "polling",
+    "existance"
+  ],
+  "author": "Tim Sebastian @timse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timse/polling-for-attention/issues"
+  },
+  "homepage": "https://github.com/timse/polling-for-attention#readme",
+  "devDependencies": {
+    "babel-core": "5.8.34",
+    "babel-loader": "5.3.3",
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3",
+    "mocha-traceur": "^2.1.0",
+    "traceur": "0.0.95",
+    "webpack": "^1.12.9"
+  }
+}
